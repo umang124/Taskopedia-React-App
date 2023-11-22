@@ -19,7 +19,7 @@ function SubHeader() {
   return <p style={subHeaderStyle} className="text-center">This will be an exciting course.</p>;
 }
 
-function Header() {
+const Header = () => {
   return (
     <div>
       <MainHeader />
