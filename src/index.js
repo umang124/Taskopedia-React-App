@@ -28,15 +28,26 @@ function Footer() {
   );
 }
 
-
 root.render(
-  <div className="container">
+  <div className="">
     <Header />
     <MainBody />
-    <div className="row">Student Enrolled</div>
-    <Student experience={2} name="Kris Walley" />
-    <Student experience={5} name="Umang Shrestha" />
-    <Student experience={7} name="John Doe" />
+    <div className="container row">Student Enrolled</div>
+    <Student
+      experience={2}
+      name="Kris Walley"
+      headshot="https://api.lorem.space/image/face?w=151&h=151"
+    />
+    <Student
+      experience={5}
+      name="Umang Shrestha"
+      headshot="https://api.lorem.space/image/face?w=150&h=150"
+    />
+    <Student
+      experience={7}
+      name="John Doe"
+      headshot="https://api.lorem.space/image/face?w=154&h=154"
+    />
     <Footer />
   </div>
 );
